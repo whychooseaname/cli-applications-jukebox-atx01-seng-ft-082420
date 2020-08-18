@@ -35,7 +35,7 @@ def play
   
 end
 
-def list (music)
+def list (songs)
   i = 1
   songs.each do |song|
     puts "#{i}. #{song})"
