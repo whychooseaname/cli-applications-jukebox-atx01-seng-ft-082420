@@ -41,16 +41,8 @@ def play(songs)
     puts "Playing #{songs[number]}"
   
   song_name = gets.strip
-  number=song_name.to_i - 1
-  songs.each do |song|
-    if song_name.to_i > 0
-      puts "Playing #{songs[song_name.to_i - 1]}"
-    elsif song_name == song 
-      puts "Playing #{song}"
-    else 
-      puts "Invalid input, please try again"
-    end 
-  end
+  track=song_name.to_i - 1
+  if track <0 && songs.include? 
 end
 
 
