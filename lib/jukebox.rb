@@ -34,7 +34,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_name = gets.strip
-  songs.each do
+  songs.each do |
   
 end
 
@@ -47,5 +47,5 @@ def list (songs)
 end 
 
 def exit_jukebox
-  
+  puts "Goodbye"
 end 
