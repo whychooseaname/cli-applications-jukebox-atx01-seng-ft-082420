@@ -31,7 +31,10 @@ def help
   
 end
 
-def play
+def play(songs)
+  puts "Please enter a song name or number:"
+  song_name = gets.strip
+  
   
 end
 
