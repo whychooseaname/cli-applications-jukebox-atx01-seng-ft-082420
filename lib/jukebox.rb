@@ -34,7 +34,10 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   song_name = gets.strip
-  songs.each do |
+  songs.each do |song|
+    if song_name == song 
+      puts "Playing #{song_name}"
+    elsif
   
 end
 
