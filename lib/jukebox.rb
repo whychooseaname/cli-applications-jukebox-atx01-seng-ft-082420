@@ -70,4 +70,5 @@ def run
     help 
   when "exit"
     exit_jukebox
+  end 
 end
