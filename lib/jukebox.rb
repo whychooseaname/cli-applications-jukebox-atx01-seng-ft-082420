@@ -32,6 +32,7 @@ def help
 end
 
 def play(songs)
+  puts "Please enter a song name or number:"
   song_name = gets.strip
   track=song_name.to_i - 1
   if track < 0 && songs.include?(song_name)
