@@ -42,7 +42,8 @@ def play(songs)
   
   song_name = gets.strip
   track=song_name.to_i - 1
-  if track <0 && songs.include? 
+  if track <0 && songs.include?(song_name)
+    track = songs.index()
 end
 
 
