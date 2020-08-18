@@ -61,6 +61,9 @@ end
 def run 
   puts "Please enter a command"
   command = gets.strip
-  case command
-  when list
+  case command.downcase
+  when "list"
+    list(songs)
+  when "play"
+    
 end
