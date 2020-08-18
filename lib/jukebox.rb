@@ -35,9 +35,11 @@ def play
   
 end
 
-def list (songs)
+def list (music)
+  i = 1
   songs.each do |song|
-    puts song
+    puts i". " song
+    i +=1
   end
 end 
 
