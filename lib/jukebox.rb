@@ -31,12 +31,12 @@ def help
   
 end
 
-def play 
-  puts songs
+def play
   
 end
 
 def list 
+  
   
 end
 
