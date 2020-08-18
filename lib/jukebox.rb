@@ -38,7 +38,7 @@ end
 def list (music)
   i = 1
   songs.each do |song|
-    puts i". " song
+    puts i". "song
     i +=1
   end
 end 
