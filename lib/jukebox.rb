@@ -35,7 +35,7 @@ def play
   
 end
 
-def list 
+def list (songs)
   songs.each do |song|
     puts song
   end
