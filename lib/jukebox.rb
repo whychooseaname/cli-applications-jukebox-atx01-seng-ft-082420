@@ -37,8 +37,9 @@ end
 
 def list 
   songs.each do |song|
-  puts song
-end
+    puts song
+  end
+end 
 
 def exit_jukebox
   
