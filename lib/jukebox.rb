@@ -42,7 +42,9 @@ def play(songs)
       puts "Playing #{songs[i-1]}"
       i += 1 
     else 
-  
+      puts "Invalid input, please try again"
+    end
+  end
 end
 
 def list (songs)
