@@ -32,14 +32,6 @@ def help
 end
 
 def play(songs)
-  puts "Please enter a song name or number:"
-   input = gets.strip
-  number = input.to_i - 1
-    elsif number < 0 && songs.include?(input)
-    index = songs.index(input)
-    puts "Playing #{songs[index]}"
-  elsif number >= 0 && songs[number] != nil
-    puts "Playing #{songs[number]}"
   
   song_name = gets.strip
   track=song_name.to_i - 1
