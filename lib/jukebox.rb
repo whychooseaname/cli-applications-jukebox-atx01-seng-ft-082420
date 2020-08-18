@@ -36,10 +36,12 @@ def play(songs)
   song_name = gets.strip
   songs.each.with_index(1) do |song, track|
     if song_name.to_i 
-      puts "Playing #{songs[song_name]}"
+      puts "Playing #{songs[song_name.to_i - 1]}"
     elsif song_name == song 
       puts "Playing #{song_name}"
-    
+    else 
+      puts "Invalid input, please try again"
+    end 
   end
 end
 
