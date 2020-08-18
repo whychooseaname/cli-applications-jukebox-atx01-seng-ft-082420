@@ -41,6 +41,7 @@ def play(songs)
     puts "Playing #{songs[number]}"
   
   song_name = gets.strip
+  number=song_name.to_i - 1
   songs.each do |song|
     if song_name.to_i > 0
       puts "Playing #{songs[song_name.to_i - 1]}"
