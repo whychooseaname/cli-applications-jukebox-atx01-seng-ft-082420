@@ -38,6 +38,9 @@ def play(songs)
     index = songs.index(song_name)
     puts "Playing #{songs[index]}"
   elsif track >= 0 
+    puts "Playing #{songs[number]}"
+  else 
+    puts "Invalid input, please try again"
   end
 end
 
