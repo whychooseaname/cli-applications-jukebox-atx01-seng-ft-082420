@@ -38,7 +38,7 @@ def play(songs)
     if song_name.to_i 
       puts "Playing #{songs[song_name]}"
     elsif song_name == song 
-      puts "Playing #{songs"
+      puts "Playing #{song_name}"
     
   end
 end
