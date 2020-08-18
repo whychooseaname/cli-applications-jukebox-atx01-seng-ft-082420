@@ -39,6 +39,7 @@ def play(songs)
     if song_name == song 
       puts "Playing #{song_name}"
     elsif song_name == i
+      
       puts "Playing #{songs[i-1]}"
       i += 1 
     else 
